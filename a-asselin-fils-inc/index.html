@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Asselin & Fils Inc - Plomberie à Lachine</title>
+    <title>A Asselin & Fils Inc - Plomberie à Lachine | Trois générations d'expertise</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        primary: '#1e3a8a',
+                        primary: '#1e40af',
                     }
                 }
             }
@@ -25,32 +25,31 @@
             <div class="flex justify-between items-center h-20">
                 <div class="flex-shrink-0">
                     <h1 class="text-2xl font-bold text-primary">A Asselin & Fils Inc</h1>
+                    <p class="text-xs text-gray-600">Plomberie - Lachine</p>
                 </div>
-                <div class="hidden md:block">
-                    <div class="ml-10 flex items-baseline space-x-8">
-                        <a href="#accueil" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition">Accueil</a>
-                        <a href="#services" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition">Services</a>
-                        <a href="#apropos" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition">À propos</a>
-                        <a href="#temoignages" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition">Témoignages</a>
-                        <a href="#contact" class="bg-primary text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-blue-900 transition">Contact</a>
-                    </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#accueil" class="text-gray-700 hover:text-primary transition">Accueil</a>
+                    <a href="#services" class="text-gray-700 hover:text-primary transition">Services</a>
+                    <a href="#apropos" class="text-gray-700 hover:text-primary transition">À propos</a>
+                    <a href="#temoignages" class="text-gray-700 hover:text-primary transition">Témoignages</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary transition">Contact</a>
                 </div>
                 <div class="md:hidden">
-                    <button id="mobile-menu-button" class="text-gray-700 hover:text-primary focus:outline-none">
+                    <button id="mobile-menu-btn" class="text-gray-700 focus:outline-none">
                         <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
                         </svg>
                     </button>
                 </div>
             </div>
         </div>
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="#accueil" class="block text-gray-700 hover:text-primary px-3 py-2 text-base font-medium">Accueil</a>
-                <a href="#services" class="block text-gray-700 hover:text-primary px-3 py-2 text-base font-medium">Services</a>
-                <a href="#apropos" class="block text-gray-700 hover:text-primary px-3 py-2 text-base font-medium">À propos</a>
-                <a href="#temoignages" class="block text-gray-700 hover:text-primary px-3 py-2 text-base font-medium">Témoignages</a>
-                <a href="#contact" class="block text-gray-700 hover:text-primary px-3 py-2 text-base font-medium">Contact</a>
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#accueil" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Accueil</a>
+                <a href="#services" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Services</a>
+                <a href="#apropos" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">À propos</a>
+                <a href="#temoignages" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Témoignages</a>
+                <a href="#contact" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Contact</a>
             </div>
         </div>
     </nav>
@@ -58,14 +57,19 @@
     <!-- Hero Section -->
     <section id="accueil" class="relative h-screen flex items-center justify-center">
         <div class="absolute inset-0 z-0">
-            <img src="https://source.unsplash.com/1920x1080/?plumber,plumbing" alt="Plomberie" class="w-full h-full object-cover">
+            <img src="https://source.unsplash.com/1920x1080/?plumber,plumbing" alt="Plomberie professionnelle" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
-        <div class="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-            <h2 class="text-5xl md:text-6xl font-bold mb-6">A Asselin & Fils Inc</h2>
-            <p class="text-2xl md:text-3xl mb-8 font-light">Trois générations d'expertise en plomberie à votre service</p>
-            <p class="text-xl md:text-2xl mb-10">Plomberie de qualité à Lachine</p>
-            <a href="#contact" class="bg-primary hover:bg-blue-900 text-white font-bold py-4 px-8 rounded-lg text-lg transition inline-block">Obtenez une soumission gratuite</a>
+        <div class="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
+            <h2 class="text-5xl md:text-6xl font-bold mb-6">Trois générations d'expertise en plomberie à votre service</h2>
+            <p class="text-xl md:text-2xl mb-8">Service de plomberie professionnel à Lachine depuis des générations</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#contact" class="bg-primary hover:bg-blue-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition">Demander une soumission</a>
+                <a href="tel:514-555-0100" class="bg-white hover:bg-gray-100 text-primary px-8 py-4 rounded-lg text-lg font-semibold transition">Appeler maintenant</a>
+            </div>
+            <div class="mt-6">
+                <p class="text-yellow-400 text-2xl">⭐⭐⭐⭐⭐ 4.7/5</p>
+            </div>
         </div>
     </section>
 
@@ -74,6 +78,5 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold text-gray-900 mb-4">Nos Services</h2>
-                <p class="text-xl text-gray-600">Des solutions complètes en plomberie pour tous vos besoins</p>
+                <p class="text-xl text-gray-600">Des solutions complètes pour tous vos besoins en plomberie</p>
             </div>
-            <div
